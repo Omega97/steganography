@@ -41,6 +41,7 @@ def gen_message(gen_coo, mat, validation_byte='\n'):
 
 
 def decode(path):
+    """extract hidden message from image"""
     mat = read_image(path)
     height = len(mat)
     width = len(mat[0])
